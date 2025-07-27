@@ -1,0 +1,22 @@
+{
+    "acc123": [
+        {"id": "txn1", "date": "2025-07-26", "description": "Groceries", "amount": -50.00, "category": "Food"},
+        {"id": "txn2", "date": "2025-07-25", "description": "Salary", "amount": 2000.00, "category": "Income"},
+        {"id": "txn4", "date": "2025-07-24", "description": "Netflix Subscription", "amount": -15.99, "category": "Entertainment"},
+        {"id": "txn5", "date": "2025-07-23", "description": "Gas", "amount": -45.50, "category": "Transport"}
+    ],
+    "acc124": [
+        {"id": "txn3", "date": "2025-07-20", "description": "Transfer to checking", "amount": -500.00, "category": "Transfer"},
+        {"id": "txn6", "date": "2025-07-15", "description": "Online Shopping", "amount": -120.00, "category": "Shopping"}
+    ],
+    "acc223": [
+        {"id": "txn7", "date": "2025-07-26", "description": "Restaurant", "amount": -75.00, "category": "Food"},
+        {"id": "txn8", "date": "2025-07-25", "description": "Paycheck", "amount": 1500.00, "category": "Income"}
+    ],
+    "acc323": [
+        {"id": "txn9", "date": "2025-07-26", "description": "Coffee", "amount": -5.00, "category": "Food"}
+    ],
+    "acc523": [
+        {"id": "txn10", "date": "2025-07-26", "description": "Bookstore", "amount": -25.00, "category": "Shopping"}
+    ]
+}

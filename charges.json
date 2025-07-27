@@ -1,0 +1,9 @@
+{
+    "acc123": [
+        {"id": "chg1", "date": "2025-07-28", "description": "Late Payment Fee", "amount": -25.00, "category": "Fee"},
+        {"id": "chg2", "date": "2025-07-15", "description": "Overdraft Fee", "amount": -35.00, "category": "Fee"}
+    ],
+    "acc223": [
+        {"id": "chg3", "date": "2025-07-20", "description": "Late Payment Fee", "amount": -15.00, "category": "Fee"}
+    ]
+}

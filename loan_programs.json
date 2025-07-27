@@ -1,0 +1,12 @@
+{
+    "personal_loan": {"min_score": 650, "max_amount": 50000, "base_rate": 0.05},
+    "car_loan": {"min_score": 680, "max_amount": 75000, "base_rate": 0.04},
+    "home_loan": {"min_score": 700, "max_amount": 500000, "base_rate": 0.03},
+    "student_loan": {"min_score": 600, "max_amount": 100000, "base_rate": 0.06},
+    "business_loan": {"min_score": 720, "max_amount": 1000000, "base_rate": 0.07},
+    "debt_consolidation": {"min_score": 660, "max_amount": 100000, "base_rate": 0.08},
+    "vacation_loan": {"min_score": 640, "max_amount": 20000, "base_rate": 0.09},
+    "wedding_loan": {"min_score": 670, "max_amount": 30000, "base_rate": 0.085},
+    "medical_loan": {"min_score": 620, "max_amount": 40000, "base_rate": 0.075},
+    "renovation_loan": {"min_score": 690, "max_amount": 60000, "base_rate": 0.065}
+}

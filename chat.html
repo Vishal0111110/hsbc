@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Chatbot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="toast-container"></div>
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3>Login</h3>
+            <input type="text" id="username" placeholder="Username">
+            <div class="password-container">
+                <input type="password" id="password" placeholder="Password">
+                <i class="fas fa-eye" id="togglePassword"></i>
+            </div>
+            <button id="login-btn">Login</button>
+        </div>
+    </div>
+    <div class="history-panel" id="history-panel">
+        <div class="history-header">
+            <h3>History</h3>
+        </div>
+        <div class="search-history">
+            <input type="text" placeholder="Search history...">
+            <button id="new-chat-btn">+ New Chat</button>
+        </div>
+        <ul class="history-list">
+            <!-- History items will be appended here -->
+        </ul>
+    </div>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="menu-icon" id="menu-icon"><i class="fas fa-bars"></i></div>
+            <h2>Banking Bot</h2>
+            <div class="profile-section">
+                <i class="fas fa-user-circle profile-icon"></i>
+                <div class="profile-dropdown">
+                    <p><strong>Name:</strong> <span id="profile-name"></span></p>
+                    <p><strong>Username:</strong> <span id="profile-username"></span></p>
+                    <button id="logout-btn">Logout</button>
+                </div>
+            </div>
+        </div>
+        <div class="chat-box" id="chat-box">
+            <!-- Chat messages will be appended here -->
+        </div>
+        <div class="chat-input">
+            <button class="action-btn" id="file-btn"><i class="fas fa-paperclip"></i></button>
+            <input type="file" id="file-input" hidden multiple>
+            <input type="text" id="user-input" placeholder="Type a message...">
+            <button class="action-btn" id="mic-btn"><i class="fas fa-microphone"></i></button>
+            <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <div id="loan-amount-modal" class="modal">
+        <div class="modal-content">
+            <h3>Enter Loan Amount</h3>
+            <input type="number" id="loan-amount-input" placeholder="Enter amount">
+            <button id="submit-loan-amount-btn">Submit</button>
+        </div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>

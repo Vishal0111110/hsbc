@@ -1,0 +1,183 @@
+{
+    "user1": {
+        "password": "password1",
+        "profile": {
+            "name": "Alice",
+            "email": "alice@example.com",
+            "credit_score": 750,
+            "accounts": [
+                {
+                    "id": "acc123",
+                    "type": "checking",
+                    "balance": 5230.5,
+                    "interest_rate": 0.01,
+                    "currency": "USD"
+                },
+                {
+                    "id": "acc124",
+                    "type": "savings",
+                    "balance": 15800.75,
+                    "interest_rate": 0.02,
+                    "currency": "USD"
+                }
+            ],
+            "cards": [
+                {
+                    "id": "card1",
+                    "number": "**** **** **** 1111",
+                    "type": "debit",
+                    "status": "active",
+                    "limit": 5000
+                },
+                {
+                    "id": "card2",
+                    "number": "**** **** **** 2222",
+                    "type": "credit",
+                    "status": "blocked",
+                    "limit": 10000,
+                    "due_date": "2025-08-15"
+                }
+            ],
+            "loans": [
+                {
+                    "id": "loan101",
+                    "type": "auto",
+                    "amount": 25000,
+                    "status": "approved",
+                    "interest_rate": 0.05,
+                    "remaining_balance": 15000
+                },
+                {
+                    "id": "loan2",
+                    "type": "wedding_loan",
+                    "amount": 10000,
+                    "status": "approved",
+                    "interest_rate": 0.07700000000000001
+                },
+                {
+                    "id": "loan3",
+                    "type": "wedding_loan",
+                    "amount": 8000,
+                    "status": "approved",
+                    "interest_rate": 0.07700000000000001
+                },
+                {
+                    "id": "loan4",
+                    "type": "business_loan",
+                    "amount": 788,
+                    "status": "approved",
+                    "interest_rate": 0.067
+                },
+                {
+                    "id": "loan5",
+                    "type": "home_loan",
+                    "amount": 6000,
+                    "status": "approved",
+                    "interest_rate": 0.024999999999999998
+                }
+            ]
+        }
+    },
+    "user2": {
+        "password": "password2",
+        "profile": {
+            "name": "Bob",
+            "email": "bob@example.com",
+            "credit_score": 680,
+            "accounts": [
+                {
+                    "id": "acc223",
+                    "type": "checking",
+                    "balance": 2500.0,
+                    "interest_rate": 0.01,
+                    "currency": "USD"
+                }
+            ],
+            "cards": [
+                {
+                    "id": "card3",
+                    "number": "**** **** **** 3333",
+                    "type": "credit",
+                    "status": "active",
+                    "limit": 7500,
+                    "due_date": "2025-08-20"
+                }
+            ],
+            "loans": [
+                {
+                    "id": "loan201",
+                    "type": "personal",
+                    "amount": 10000.0,
+                    "status": "approved",
+                    "interest_rate": 0.08,
+                    "remaining_balance": 8000
+                }
+            ]
+        }
+    },
+    "user3": {
+        "password": "password3",
+        "profile": {
+            "name": "Charlie",
+            "email": "charlie@example.com",
+            "credit_score": 800,
+            "accounts": [
+                {
+                    "id": "acc323",
+                    "type": "checking",
+                    "balance": 7800.2,
+                    "interest_rate": 0.01,
+                    "currency": "EUR"
+                },
+                {
+                    "id": "acc324",
+                    "type": "savings",
+                    "balance": 51200.0,
+                    "interest_rate": 0.025,
+                    "currency": "EUR"
+                }
+            ],
+            "cards": [],
+            "loans": []
+        }
+    },
+    "user4": {
+        "password": "password4",
+        "profile": {
+            "name": "Diana",
+            "email": "diana@example.com",
+            "credit_score": 620,
+            "accounts": [],
+            "cards": [
+                {
+                    "id": "card4",
+                    "number": "**** **** **** 4444",
+                    "type": "credit",
+                    "status": "lost",
+                    "limit": 15000,
+                    "due_date": "2025-08-25"
+                }
+            ],
+            "loans": []
+        }
+    },
+    "user5": {
+        "password": "password5",
+        "profile": {
+            "name": "Eve",
+            "email": "eve@example.com",
+            "credit_score": 700,
+            "accounts": [
+                {
+                    "id": "acc523",
+                    "type": "checking",
+                    "balance": 150.0,
+                    "interest_rate": 0.01,
+                    "currency": "GBP"
+                }
+            ],
+            "cards": [],
+            "loans": []
+        }
+    }
+}
